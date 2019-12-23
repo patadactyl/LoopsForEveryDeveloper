@@ -1,19 +1,14 @@
 package com.company;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter a string : ");
-        String userInput = scanner.nextLine();
-        
-        int length = userInput.length();
-
-        for (int i = 0; i < length; i++) {
-            System.out.println(userInput.charAt(i));
+        String[] characterArray = new String[] {"All you need is loops", "dun", "dun", "da", "da", "dunnn"};
+        for (int j = 0; j < characterArray.length; j++) {
+            System.out.println(characterArray[j]);
         }
     }
 }
